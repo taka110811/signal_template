@@ -55,15 +55,4 @@ body:
     attributes:
       value: |
         **スクリーンショットまたはデータ**
-        フィルタリングの適用前後のシグナルや、その効果を説明するスクリーンショットやデータを添付してください。
-
-  - type: file
-    id: screenshot
-    attributes:
-      label: "スクリーンショットまたはデータ"
-      description: "フィルタリング適用前後のシグナルに関するファイルをアップロードしてください。"
-      accept: 
-        - image/*
-        - application/pdf
-    validations:
-      required: false
+        フィルタリングの適用前後のシグナルや、その効果を説明するスクリーンショットやデータをコメントにアップロードしてください。
